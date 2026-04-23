@@ -7,14 +7,6 @@ class Servicio:
         self.duracion = duracion  # en minutos
         self.descripcion = descripcion
 
-    def crear_servicio(self):
-        print("\n|===| Crear Servicio |===|")
-
-        self.id_servicio = input("ID del servicio: ")
-        self.nombre = input("Nombre del servicio: ")
-        self.precio = float(input("Precio: "))
-        self.duracion = int(input("Duración (minutos): "))
-        self.descripcion = input("Descripción: ")
 
     def mostrar_servicio(self):
         print("\n|===| Servicio |===|")

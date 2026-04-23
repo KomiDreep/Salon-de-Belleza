@@ -1,5 +1,7 @@
-from Componentes.horario import Horario
-from Componentes.usuarios import Usuario
+# from Componentes.horario import Horario
+from usuarios import Usuario
+from servicio import Servicio
+
 
 class Estilista(Usuario):
 
@@ -7,7 +9,7 @@ class Estilista(Usuario):
         super().__init__(nombre, apellido, correo, telefono)
         self.especialidad = especialidad
         self.estado = estado
-        self.horario = horario 
+        self.horario = [] 
         self.agenda = []
         self.servicios = [] 
 

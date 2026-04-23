@@ -20,4 +20,4 @@ class Horario:
         for h in range(inicio, fin):
             horas.append(f"{h:02d}:00")
 
-        return horas
+        
